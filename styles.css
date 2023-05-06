@@ -9,7 +9,7 @@
 :root {
     scroll-behavior: smooth;
 
-    
+
     /* fontsizes that are constant across all screens */
     --font-size-14: 0.9rem;
     --font-size-16: 1rem;
@@ -266,7 +266,8 @@ img {
 }
 
 .call-to-action-container__form-input {
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
     border: none;
     background-color: transparent;
     padding: 1em;
@@ -623,3 +624,8 @@ img {
     }
 }
 
+@media screen and (max-width: 334px) {
+    .site-footer__container {
+        margin-left: 20px;
+    }
+}
