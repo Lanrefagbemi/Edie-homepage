@@ -601,7 +601,8 @@ img {
         justify-content: space-between;
     }
 
-    .site-footer__container-down {
+    .site-footer__container-down,
+    .call-to-action-container__form-input {
         width: auto;
     }
 }
