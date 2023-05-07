@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 
 :root {
@@ -271,6 +272,9 @@ img {
     border: none;
     background-color: transparent;
     padding: 1em;
+
+    /* to overwrite the inputs default width and the "min-width:auto" set on flex items, to avoid overflow causing horizontal scroll bars */
+    width: 0;
 }
 
 .call-to-action-container__form-submit-btn {
